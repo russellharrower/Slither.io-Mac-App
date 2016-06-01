@@ -1,0 +1,498 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		329882BE1CFEE64E008817D2 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 329882BD1CFEE64E008817D2 /* AppDelegate.swift */; };
+		329882C01CFEE64E008817D2 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 329882BF1CFEE64E008817D2 /* ViewController.swift */; };
+		329882C21CFEE64E008817D2 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 329882C11CFEE64E008817D2 /* Assets.xcassets */; };
+		329882C51CFEE64E008817D2 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 329882C31CFEE64E008817D2 /* Main.storyboard */; };
+		329882D01CFEE64E008817D2 /* slither_ioTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 329882CF1CFEE64E008817D2 /* slither_ioTests.swift */; };
+		329882DB1CFEE64E008817D2 /* slither_ioUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 329882DA1CFEE64E008817D2 /* slither_ioUITests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		329882CC1CFEE64E008817D2 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 329882B21CFEE64E008817D2 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 329882B91CFEE64E008817D2;
+			remoteInfo = slither.io;
+		};
+		329882D71CFEE64E008817D2 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 329882B21CFEE64E008817D2 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 329882B91CFEE64E008817D2;
+			remoteInfo = slither.io;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		329882BA1CFEE64E008817D2 /* slither.io.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = slither.io.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		329882BD1CFEE64E008817D2 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		329882BF1CFEE64E008817D2 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		329882C11CFEE64E008817D2 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		329882C41CFEE64E008817D2 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		329882C61CFEE64E008817D2 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		329882CB1CFEE64E008817D2 /* slither.ioTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = slither.ioTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		329882CF1CFEE64E008817D2 /* slither_ioTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = slither_ioTests.swift; sourceTree = "<group>"; };
+		329882D11CFEE64E008817D2 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		329882D61CFEE64E008817D2 /* slither.ioUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = slither.ioUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		329882DA1CFEE64E008817D2 /* slither_ioUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = slither_ioUITests.swift; sourceTree = "<group>"; };
+		329882DC1CFEE64E008817D2 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		329882B71CFEE64E008817D2 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		329882C81CFEE64E008817D2 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		329882D31CFEE64E008817D2 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		329882B11CFEE64E008817D2 = {
+			isa = PBXGroup;
+			children = (
+				329882BC1CFEE64E008817D2 /* slither.io */,
+				329882CE1CFEE64E008817D2 /* slither.ioTests */,
+				329882D91CFEE64E008817D2 /* slither.ioUITests */,
+				329882BB1CFEE64E008817D2 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		329882BB1CFEE64E008817D2 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				329882BA1CFEE64E008817D2 /* slither.io.app */,
+				329882CB1CFEE64E008817D2 /* slither.ioTests.xctest */,
+				329882D61CFEE64E008817D2 /* slither.ioUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		329882BC1CFEE64E008817D2 /* slither.io */ = {
+			isa = PBXGroup;
+			children = (
+				329882BD1CFEE64E008817D2 /* AppDelegate.swift */,
+				329882BF1CFEE64E008817D2 /* ViewController.swift */,
+				329882C11CFEE64E008817D2 /* Assets.xcassets */,
+				329882C31CFEE64E008817D2 /* Main.storyboard */,
+				329882C61CFEE64E008817D2 /* Info.plist */,
+			);
+			path = slither.io;
+			sourceTree = "<group>";
+		};
+		329882CE1CFEE64E008817D2 /* slither.ioTests */ = {
+			isa = PBXGroup;
+			children = (
+				329882CF1CFEE64E008817D2 /* slither_ioTests.swift */,
+				329882D11CFEE64E008817D2 /* Info.plist */,
+			);
+			path = slither.ioTests;
+			sourceTree = "<group>";
+		};
+		329882D91CFEE64E008817D2 /* slither.ioUITests */ = {
+			isa = PBXGroup;
+			children = (
+				329882DA1CFEE64E008817D2 /* slither_ioUITests.swift */,
+				329882DC1CFEE64E008817D2 /* Info.plist */,
+			);
+			path = slither.ioUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		329882B91CFEE64E008817D2 /* slither.io */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 329882DF1CFEE64E008817D2 /* Build configuration list for PBXNativeTarget "slither.io" */;
+			buildPhases = (
+				329882B61CFEE64E008817D2 /* Sources */,
+				329882B71CFEE64E008817D2 /* Frameworks */,
+				329882B81CFEE64E008817D2 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = slither.io;
+			productName = slither.io;
+			productReference = 329882BA1CFEE64E008817D2 /* slither.io.app */;
+			productType = "com.apple.product-type.application";
+		};
+		329882CA1CFEE64E008817D2 /* slither.ioTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 329882E21CFEE64E008817D2 /* Build configuration list for PBXNativeTarget "slither.ioTests" */;
+			buildPhases = (
+				329882C71CFEE64E008817D2 /* Sources */,
+				329882C81CFEE64E008817D2 /* Frameworks */,
+				329882C91CFEE64E008817D2 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				329882CD1CFEE64E008817D2 /* PBXTargetDependency */,
+			);
+			name = slither.ioTests;
+			productName = slither.ioTests;
+			productReference = 329882CB1CFEE64E008817D2 /* slither.ioTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		329882D51CFEE64E008817D2 /* slither.ioUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 329882E51CFEE64E008817D2 /* Build configuration list for PBXNativeTarget "slither.ioUITests" */;
+			buildPhases = (
+				329882D21CFEE64E008817D2 /* Sources */,
+				329882D31CFEE64E008817D2 /* Frameworks */,
+				329882D41CFEE64E008817D2 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				329882D81CFEE64E008817D2 /* PBXTargetDependency */,
+			);
+			name = slither.ioUITests;
+			productName = slither.ioUITests;
+			productReference = 329882D61CFEE64E008817D2 /* slither.ioUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		329882B21CFEE64E008817D2 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0730;
+				LastUpgradeCheck = 0730;
+				ORGANIZATIONNAME = "Russell Harrower";
+				TargetAttributes = {
+					329882B91CFEE64E008817D2 = {
+						CreatedOnToolsVersion = 7.3.1;
+					};
+					329882CA1CFEE64E008817D2 = {
+						CreatedOnToolsVersion = 7.3.1;
+						TestTargetID = 329882B91CFEE64E008817D2;
+					};
+					329882D51CFEE64E008817D2 = {
+						CreatedOnToolsVersion = 7.3.1;
+						TestTargetID = 329882B91CFEE64E008817D2;
+					};
+				};
+			};
+			buildConfigurationList = 329882B51CFEE64E008817D2 /* Build configuration list for PBXProject "slither.io" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 329882B11CFEE64E008817D2;
+			productRefGroup = 329882BB1CFEE64E008817D2 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				329882B91CFEE64E008817D2 /* slither.io */,
+				329882CA1CFEE64E008817D2 /* slither.ioTests */,
+				329882D51CFEE64E008817D2 /* slither.ioUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		329882B81CFEE64E008817D2 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				329882C21CFEE64E008817D2 /* Assets.xcassets in Resources */,
+				329882C51CFEE64E008817D2 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		329882C91CFEE64E008817D2 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		329882D41CFEE64E008817D2 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		329882B61CFEE64E008817D2 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				329882C01CFEE64E008817D2 /* ViewController.swift in Sources */,
+				329882BE1CFEE64E008817D2 /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		329882C71CFEE64E008817D2 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				329882D01CFEE64E008817D2 /* slither_ioTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		329882D21CFEE64E008817D2 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				329882DB1CFEE64E008817D2 /* slither_ioUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		329882CD1CFEE64E008817D2 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 329882B91CFEE64E008817D2 /* slither.io */;
+			targetProxy = 329882CC1CFEE64E008817D2 /* PBXContainerItemProxy */;
+		};
+		329882D81CFEE64E008817D2 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 329882B91CFEE64E008817D2 /* slither.io */;
+			targetProxy = 329882D71CFEE64E008817D2 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		329882C31CFEE64E008817D2 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				329882C41CFEE64E008817D2 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		329882DD1CFEE64E008817D2 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "-";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.11;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		329882DE1CFEE64E008817D2 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "-";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.11;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = macosx;
+			};
+			name = Release;
+		};
+		329882E01CFEE64E008817D2 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				COMBINE_HIDPI_IMAGES = YES;
+				INFOPLIST_FILE = slither.io/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "Kinnetik.slither-io";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		329882E11CFEE64E008817D2 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				COMBINE_HIDPI_IMAGES = YES;
+				INFOPLIST_FILE = slither.io/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "Kinnetik.slither-io";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		329882E31CFEE64E008817D2 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				COMBINE_HIDPI_IMAGES = YES;
+				INFOPLIST_FILE = slither.ioTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks @loader_path/../Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "Kinnetik.slither-ioTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/slither.io.app/Contents/MacOS/slither.io";
+			};
+			name = Debug;
+		};
+		329882E41CFEE64E008817D2 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				COMBINE_HIDPI_IMAGES = YES;
+				INFOPLIST_FILE = slither.ioTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks @loader_path/../Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "Kinnetik.slither-ioTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/slither.io.app/Contents/MacOS/slither.io";
+			};
+			name = Release;
+		};
+		329882E61CFEE64E008817D2 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				INFOPLIST_FILE = slither.ioUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks @loader_path/../Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "Kinnetik.slither-ioUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = slither.io;
+			};
+			name = Debug;
+		};
+		329882E71CFEE64E008817D2 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				INFOPLIST_FILE = slither.ioUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks @loader_path/../Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "Kinnetik.slither-ioUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = slither.io;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		329882B51CFEE64E008817D2 /* Build configuration list for PBXProject "slither.io" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				329882DD1CFEE64E008817D2 /* Debug */,
+				329882DE1CFEE64E008817D2 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		329882DF1CFEE64E008817D2 /* Build configuration list for PBXNativeTarget "slither.io" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				329882E01CFEE64E008817D2 /* Debug */,
+				329882E11CFEE64E008817D2 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		329882E21CFEE64E008817D2 /* Build configuration list for PBXNativeTarget "slither.ioTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				329882E31CFEE64E008817D2 /* Debug */,
+				329882E41CFEE64E008817D2 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		329882E51CFEE64E008817D2 /* Build configuration list for PBXNativeTarget "slither.ioUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				329882E61CFEE64E008817D2 /* Debug */,
+				329882E71CFEE64E008817D2 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 329882B21CFEE64E008817D2 /* Project object */;
+}
