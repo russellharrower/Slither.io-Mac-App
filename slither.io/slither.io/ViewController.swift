@@ -1,35 +1,1 @@
-//
-//  ViewController.swift
-//  slither.io
-//
-//  Created by Russell Harrower on 1/06/2016.
-//  Copyright © 2016 Russell Harrower. All rights reserved.
-//
-
-import Cocoa
-import WebKit
-
-class ViewController: NSViewController {
-
-    @IBOutlet weak var webView: WebView!
-   
-    
-    override func viewDidLoad()
-    {
-        super.viewDidLoad()
-        
-        let urlString = "http://slither.io"
-        
-        self.webView.mainFrame.loadRequest(NSURLRequest(URL: NSURL(string: urlString)!))
-    }
-  
-
-    override var representedObject: AnyObject? {
-        didSet {
-        // Update the view, if already loaded.
-        }
-    }
-
-
-}
-
+////  ViewController.swift//  slither.io////  Created by Russell Harrower on 1/06/2016.//  Copyright © 2016 Russell Harrower. All rights reserved.//import Cocoaimport WebKitclass ViewController: NSViewController {    @IBOutlet weak var webView:WKWebView!        override func viewWillAppear() {        super.viewWillAppear()        preferredContentSize = view.fittingSize    }        override func viewDidLoad()    {        super.viewDidLoad()        //let webViewConfiguration: WKWebViewConfiguration = WKWebViewConfiguration()        let webView: WKWebView = WKWebView(frame:self.view.frame)        let urlString = NSURL(string:"http://slither.io")        let requestObj = NSURLRequest(URL: urlString!)                webView.loadRequest(requestObj)        self.view.addSubview(webView)                //self.webView.mainFrame.loadRequest(NSURLRequest(URL: NSURL(string: urlString)!))    }      override var representedObject: AnyObject? {        didSet {        // Update the view, if already loaded.        }    }}

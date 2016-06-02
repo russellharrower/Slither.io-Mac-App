@@ -35,7 +35,7 @@
 /* Begin PBXFileReference section */
 		329882BA1CFEE64E008817D2 /* slither.io.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = slither.io.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		329882BD1CFEE64E008817D2 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		329882BF1CFEE64E008817D2 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		329882BF1CFEE64E008817D2 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; lineEnding = 1; path = ViewController.swift; sourceTree = "<group>"; };
 		329882C11CFEE64E008817D2 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		329882C41CFEE64E008817D2 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		329882C61CFEE64E008817D2 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
@@ -475,6 +475,7 @@
 				329882E11CFEE64E008817D2 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		329882E21CFEE64E008817D2 /* Build configuration list for PBXNativeTarget "slither.ioTests" */ = {
 			isa = XCConfigurationList;
@@ -483,6 +484,7 @@
 				329882E41CFEE64E008817D2 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		329882E51CFEE64E008817D2 /* Build configuration list for PBXNativeTarget "slither.ioUITests" */ = {
 			isa = XCConfigurationList;
@@ -491,6 +493,7 @@
 				329882E71CFEE64E008817D2 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
